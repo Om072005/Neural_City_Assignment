@@ -22,7 +22,7 @@ flowchart TD
     style F fill:#9b2335,color:#fff
     style N fill:#1a1d27,color:#e8e8f0
 ```
-
+-----------------------------------------------------------------------------------------------------------------------------------------
 Brief explanation of each stage:
 
 User question → Gradio UI — the question is typed or clicked from examples and passed to handle_question().
@@ -36,3 +36,5 @@ Extract answer + numbers + provenance code — the three fields from the JSON ar
 Select chart type — the model also returns a chart_type enum (trend_monthly, annual_bar, comparison_bar, or none) plus parameters. The correct matplotlib helper is called with those params against the real pandas DataFrames — not the model's stated numbers.
 
 Answer + chart + provenance — all three are returned to the Gradio UI and rendered together.
+
+-----------------------------------------------------------------------------------------------------------------------------------------
