@@ -38,3 +38,5 @@ Select chart type — the model also returns a chart_type enum (trend_monthly, a
 Answer + chart + provenance — all three are returned to the Gradio UI and rendered together.
 
 -----------------------------------------------------------------------------------------------------------------------------------------
+
+Solution reply Status - UNK
